@@ -1,7 +1,5 @@
 - job:
-    name: test
-    project-type: freestyle
-     builders:
-      - shell: |
-         echo "Hello"
+    builders:
+     - shell: |
+        echo "Hello"
 
