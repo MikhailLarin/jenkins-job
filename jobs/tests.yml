@@ -1,5 +1,4 @@
 - job:
     name: tests
-    - shell: echo 'Hello'
-
+    
 
