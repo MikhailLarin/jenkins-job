@@ -1,0 +1,6 @@
+- job:
+    name: test
+    project-type: freestyle
+    builders:
+    - shell: echo "Hello"
+
