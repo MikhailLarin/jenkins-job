@@ -1,7 +1,4 @@
-- job-template:
+- job:
     name: test
-    project-type: freestyle
-    builders:
-     - shell: |
-        echo "Hello"
+    - shell: echo "Hello"
 
